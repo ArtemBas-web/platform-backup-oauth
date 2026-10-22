@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy Policy for the Platform Backup Google Drive integration.">
+    <title>Privacy Policy · Platform Backup</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="compact-header">
+      <nav aria-label="Primary navigation">
+        <a class="brand" href="./">Platform Backup</a>
+        <a aria-current="page" href="privacy.html">Privacy</a>
+      </nav>
+    </header>
+
+    <main class="policy">
+      <p class="eyebrow">Last updated October 22, 2026</p>
+      <h1>Privacy Policy</h1>
+      <p class="lead">
+        Platform Backup is a private, single-operator integration used to store
+        encrypted infrastructure backups in the operator's Google Drive.
+      </p>
+
+      <h2>Data accessed</h2>
+      <p>
+        The integration uses Google's <code>drive.file</code> scope to create,
+        read, update, and delete only files and folders created or explicitly
+        opened through the integration. It does not request access to unrelated
+        files in the Google Drive account.
+      </p>
+
+      <h2>Data stored</h2>
+      <p>
+        OAuth credentials are stored outside public source control in
+        access-restricted configuration files. Backup contents are encrypted
+        locally before they are uploaded to Google Drive. The integration does
+        not operate an analytics service or advertising system.
+      </p>
+
+      <h2>Use and sharing</h2>
+      <p>
+        Google user data is used solely to authenticate the backup process and
+        manage its encrypted repository. It is not sold, used for advertising,
+        or shared with third parties except infrastructure providers required
+        to operate Google Drive and the source server.
+      </p>
+
+      <h2>Retention and deletion</h2>
+      <p>
+        Encrypted backup snapshots are retained according to the operator's
+        recovery policy and pruned automatically. The operator can revoke the
+        application's Google Account access or delete the backup repository at
+        any time.
+      </p>
+
+      <h2>Security</h2>
+      <p>
+        Access is limited through OAuth, restricted host permissions, and
+        client-side encryption. No method of storage is risk-free, so backup
+        integrity and restore capability are tested regularly.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions can be submitted through the
+        <a href="https://github.com/ArtemBas-web/platform-backup-oauth/issues">project issue tracker</a>.
+      </p>
+    </main>
+
+    <footer>
+      <a href="./">Home</a>
+      <a href="https://github.com/ArtemBas-web/platform-backup-oauth">Source and contact</a>
+    </footer>
+  </body>
+</html>
