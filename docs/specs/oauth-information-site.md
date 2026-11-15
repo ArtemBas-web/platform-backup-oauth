@@ -19,3 +19,7 @@ Visitors to the consent screen can identify Platform Backup and read its privacy
 - From the project root, open `index.html` in a browser and follow the Privacy and Home links both ways. Both pages render with the local stylesheet. Confirm the text makes no claim of public service availability.
 - Check the public disclosure and contact route by reading both pages. A local review uses the checked-out files and does not authenticate to Google or touch backups.
 - GitHub Pages publishes from `main`. After a separately authorized publication, check the deployed home and privacy URLs available to consent-screen visitors. Local file checks establish no deployment status.
+
+## Published acceptance
+
+On 2026-11-16, the published v0.1.0 information site passed checks of the home page, privacy policy and rendered project specification on GitHub Pages. These are the three published routes to verify after the next authorized update. Record each route's response and the version or revision that was published.
