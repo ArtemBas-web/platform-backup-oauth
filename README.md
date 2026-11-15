@@ -5,3 +5,5 @@ Google Drive integration.
 
 The site contains no credentials, backup data, server addresses, or private
 operational documentation. It is published with GitHub Pages from `main`.
+
+The [site specification](docs/specs/oauth-information-site.md) records the public pages, disclosure boundaries and acceptance checks.
