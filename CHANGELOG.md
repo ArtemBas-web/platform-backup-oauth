@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-26
+
+### Added
+
+- Publish the Russian privacy policy for the Qwen Local Chrome extension at `qwen-local/privacy.html`.
+
 ## [0.1.1] - 2026-11-16
 
 ### Changed
